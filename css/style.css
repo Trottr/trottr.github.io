@@ -1,0 +1,85 @@
+html { 
+  	background: url(../img/wallpaper.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+ 
+}
+
+#content {
+	margin: 0 auto;
+	display: table-cell;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 1;
+	vertical-align: middle;
+	text-align: center;
+	background-color: rgba(52, 73, 94, 0.9);
+}
+
+#screenshot {
+	z-index: 1;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+#screenshot img {
+	width: 250px;
+	margin: auto;
+	position: absolute;
+	top: 0; bottom: 0;
+}
+
+#screenshot p {
+	margin: auto;
+	position: absolute;
+	top: 0; bottom: 0;
+	line-height: 500px;
+	font-size: 100pt;
+	color:white;
+	font-family: 'Roboto';
+	text-align: center;
+	height: 500px;
+}
+
+#title p{
+	margin: auto;
+	position: absolute;
+	top: 0; bottom: 25%; left: 0;right: 0;
+	line-height: 500px;
+	font-size: 100pt;
+	color:white;
+	font-family: 'Roboto';
+	text-align: center;
+	height: 500px;
+}
+
+
+
+#subtitle p{
+	margin: auto;
+	position: absolute;
+	top: 5%; bottom: 0%; left: 0;right: 0;
+	line-height: 500px;
+	font-size: 25pt;
+	color:white;
+	font-family: 'Roboto';
+	text-align: center;
+	height: 500px;
+}
+#subscribe {
+	position: absolute;
+	top:15%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#righttext {
+	color:white;
+	float: right;
+}
